@@ -1,0 +1,5 @@
+Host avakas
+    User fbenurea
+    HostName avakas.mcia.univ-bordeaux.fr
+    IdentityFile ~/research/renc/.ssh/avakas_rsa
+    IdentitiesOnly=yes
