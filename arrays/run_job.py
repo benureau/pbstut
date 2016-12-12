@@ -19,7 +19,7 @@ def save_results(results):
     print('saved results in {}'.format(filepath))
 
 
-if pbs_arrayid == 1 or pbs_arrayid >= 3: # let's intentionally fail job number 1, 3, 4, 5
+if False: # let's intentionally fail job number 1, 3, 4, 5
     print('error', file=sys.stderr)
     sys.exit(1)
 else:

@@ -9,9 +9,12 @@ ssh-keygen -t rsa -b 4096 -C "fabien.benureau@inria.fr"
 Host avakas
     User fbenurea
     HostName avakas.mcia.univ-bordeaux.fr
-    IdentityFile ~/research/renc/.ssh/avakas_rsa
+    IdentityFile .ssh/id_rsa
     IdentitiesOnly=yes
 ```
+
+On your machine:
+.ssh/config
 
 ## Kill a SSH Session
 
