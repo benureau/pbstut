@@ -7,9 +7,6 @@
 #PBS -u fbenurea
 #PBS -q inria
 
-#PBS -o /home/fbenurea/logs/${PBS_JOBNAME}.out
-#PBS -e /home/fbenurea/logs/${PBS_JOBNAME}.err
-
 #PBS -m abe
 #PBS -M fabien.benureau@gmail.com
 
