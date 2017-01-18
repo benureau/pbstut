@@ -4,6 +4,9 @@
 # ./push.sh [source_directory] [destination_directory_on_avakas]
 
 # default directories if none provided
+# will send all files contained in the parent directory
+# will send them to the `~/tutorial` directory on avakas
+# this directory will probably need to be already present on avakas.
 SRC=${1-".."}
 DEST=${2-"tutorial"}
 
