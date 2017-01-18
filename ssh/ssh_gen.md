@@ -9,7 +9,7 @@ ssh-keygen -t rsa -b 4096 -C "fabien.benureau@inria.fr"
 Host avakas
     User fbenurea
     HostName avakas.mcia.univ-bordeaux.fr
-    IdentityFile .ssh/id_rsa
+    IdentityFile ~/.ssh/id_rsa
     IdentitiesOnly=yes
 ```
 

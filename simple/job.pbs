@@ -7,8 +7,8 @@
 #PBS -u fbenurea
 #PBS -q inria
 
-#PBS -m abe
-#PBS -M fabien.benureau@gmail.com
+# #PBS -m abe
+# #PBS -M fabien.benureau@gmail.com
 
 cd $PBS_O_WORKDIR
 
